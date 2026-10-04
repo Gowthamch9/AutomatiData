@@ -80,8 +80,8 @@ AutomatiData/
 ├── 📂 [Course1_Foundations_of_Data_Science](./Course1_Foundations_of_Data_Science/)  
 │   ├── 📓 [Automatidata_Course1.ipynb]
 │   ├── 📊 2017_Yellow_Taxi_Trip_Data.csv — *Dataset*  
-│   ├── 📄 PACE_Strategy_Document.pdf — *Project planning document*  
-│   └── 📄 Executive_Summary.pdf — *Stakeholder-facing summary*  
+│   ├── 📄 PACE_Strategy_Document.docx — *Project planning document*  
+│   └── 📄 Executive_Summary.pptx — *Stakeholder-facing summary*  
 │  
 ├── 📂 Course2_Get_Started_with_Python/ — *🔜 Coming soon*  
 ├── 📂 Course3_Go_Beyond_the_Numbers/ — *🔜 Coming soon*  
