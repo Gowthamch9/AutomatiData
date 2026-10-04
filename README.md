@@ -76,7 +76,7 @@ The project uses the **2017 NYC Yellow Taxi Trip Data**, provided by the NYC TLC
 ## 📁 Repository Structure
 
 
-```
+
 AutomatiData/
 │
 ├── 📂 [Course1_Foundations_of_Data_Science](./Course1_Foundations_of_Data_Science/)
@@ -92,7 +92,7 @@ AutomatiData/
 ├── 📂 Course6_Nuts_and_Bolts_of_ML/             # 🔜 Coming soon
 │
 └── 📘 README.md
-```
+
 
 > ✏️ *File and folder names above are a suggested layout; update them to match your actual repository.*
 
