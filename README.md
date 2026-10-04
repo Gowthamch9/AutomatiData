@@ -19,16 +19,11 @@
 ## 📖 Table of Contents
 
 1. [About the Project](#-about-the-project)
-2. [The Business Scenario](#-the-business-scenario)
-3. [The PACE Framework](#-the-pace-framework)
-4. [The Dataset](#-the-dataset)
-5. [Course 1: Foundations of Data Science](#-course-1-foundations-of-data-science)
-6. [Repository Structure](#-repository-structure)
-7. [How to Run the Notebook](#-how-to-run-the-notebook)
-8. [Project Roadmap](#-project-roadmap)
-9. [Skills Demonstrated](#-skills-demonstrated)
-10. [About Me](#-about-me)
-11. [Acknowledgements](#-acknowledgements)
+2. [The Dataset](#-the-dataset)
+3. [Repository Structure](#-repository-structure)
+4. [Project Roadmap](#-project-roadmap)
+5. [Skills Demonstrated](#-skills-demonstrated)
+6. [Acknowledgements](#-acknowledgements)
 
 ---
 
@@ -39,37 +34,6 @@ This repository documents my work on the **Automatidata** portfolio project, par
 Each course in the certificate adds a new stage to the project. I'll be pushing each milestone to this repository **in sequential order**, so you can watch the project grow from a first look at the data into a full predictive model.
 
 > 💡 **Ultimate goal:** Help the NYC TLC build a model that predicts taxi fare amounts *before* a ride begins, so riders know what to expect.
-
----
-
-## 🏢 The Business Scenario
-
-**Automatidata** is a fictional data consulting firm that works with clients to turn raw data into valuable insights. Their latest client is the **New York City Taxi & Limousine Commission (NYC TLC)**, the agency that licenses and regulates the city's iconic yellow taxis and for-hire vehicles.
-
-| Stakeholder | Organization | Role |
-|---|---|---|
-| Uli King | Automatidata | Senior Project Manager |
-| Deshawn Washington | Automatidata | Data Analysis Manager |
-| Luana Rodriguez | Automatidata | Senior Data Analyst |
-| Juliana Soto | NYC TLC | Finance & Administration Department Manager |
-| Titus Nelson | NYC TLC | Operations Manager |
-
-In this project, I play the role of a **data professional on the Automatidata team**, working with these stakeholders to deliver insights from TLC taxi trip data.
-
----
-
-## 🧭 The PACE Framework
-
-Every stage of this project is guided by Google's **PACE** workflow, a structured approach to data projects:
-
-| Stage | Name | What it means |
-|:---:|---|---|
-| 🅿️ | **Plan** | Understand the business problem, the stakeholders, and the scope of the project |
-| 🅰️ | **Analyze** | Collect, inspect, clean, and explore the data |
-| 🅲 | **Construct** | Build models and perform statistical analysis |
-| 🅴 | **Execute** | Share results, insights, and recommendations with stakeholders |
-
-📄 My completed **PACE Strategy Document** in this repo shows how I applied each stage to the Automatidata scenario.
 
 ---
 
@@ -109,33 +73,6 @@ The project uses the **2017 NYC Yellow Taxi Trip Data**, provided by the NYC TLC
 
 ---
 
-## 🔍 Course 1: Foundations of Data Science
-
-**Milestone:** *Inspect and understand the data*
-
-In this first stage, the Automatidata team needed someone to take an initial look at the TLC data and organize the project before deeper analysis begins.
-
-### ✅ What I did
-
-- 📝 **Completed a PACE Strategy Document** to plan the project, identify stakeholders, and define the questions to answer
-- 🐍 **Built a Python notebook** to load and inspect the dataset using `pandas` and `numpy`
-- 🔎 **Explored the data's structure** with `.head()`, `.info()`, `.describe()`, and `.shape`
-- 📈 **Sorted and filtered** trips by `trip_distance` and `total_amount` to understand the extremes
-- 💳 **Compared payment types** and average tip amounts across credit card and cash payments
-- 🚖 **Examined vendor and passenger counts** to understand how trips are distributed
-- 📑 **Wrote an Executive Summary** communicating findings to non-technical stakeholders
-
-### 💡 Key takeaways
-
-- The dataset is mostly complete, with no major missing values, which makes it a solid foundation for later modeling.
-- Some records contain **unusual values** (for example, negative fares or zero-distance trips) that will need to be cleaned before modeling.
-- **Credit card payments** show recorded tips, while cash tips aren't captured in the data, an important limitation for any tip analysis.
-- **Trip distance and total amount** are strongly related, which suggests distance will be a key predictor of fare.
-
-> 📄 See the **Executive Summary** in this repository for the full write-up.
-
----
-
 ## 📁 Repository Structure
 
 ```
@@ -157,28 +94,6 @@ AutomatiData/
 ```
 
 > ✏️ *File and folder names above are a suggested layout; update them to match your actual repository.*
-
----
-
-## ⚙️ How to Run the Notebook
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/<Gowthamch9>/AutomatiData.git
-cd AutomatiData
-```
-
-**2. Install the required libraries**
-```bash
-pip install pandas numpy jupyter
-```
-
-**3. Launch Jupyter and open the notebook**
-```bash
-jupyter notebook
-```
-
-Then open the Course 1 notebook and run the cells from top to bottom. 🎉
 
 ---
 
@@ -227,21 +142,6 @@ This repository grows with each course in the certificate. Here's where the proj
 
 ---
 
-## 👋 About Me
-
-**Gowtham Venkat Eathamokkala**
-🎓 First-year Ph.D. student in **Information Science** (Data Science Concentration)
-🏫 **University of North Texas (UNT)**
-
-I'm passionate about using data to solve real-world problems, and this repository is part of my journey through the Google Advanced Data Analytics Professional Certificate. Feedback and suggestions are always welcome!
-
-<!-- Add your links below -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](https://github.com/your-username)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-
----
-
 ## 🙏 Acknowledgements
 
 - **Google** and **Coursera** for the Advanced Data Analytics Professional Certificate and project materials
@@ -249,10 +149,6 @@ I'm passionate about using data to solve real-world problems, and this repositor
 - *Automatidata is a fictional company created for educational purposes.*
 
 ---
-
-<div align="center">
-
-⭐ **If you found this project helpful, consider giving it a star!** ⭐
 
 *Last updated: October 2026*
 
