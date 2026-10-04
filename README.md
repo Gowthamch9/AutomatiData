@@ -78,7 +78,7 @@ The project uses the **2017 NYC Yellow Taxi Trip Data**, provided by the NYC TLC
 ```
 AutomatiData/
 │
-├── 📂 Course1_Foundations_of_Data_Science/
+├── 📂 Course1_Foundations_of_Data_Science(./Course1_Foundations_of_Data_Science/)
 │   ├── 📓 Automatidata_Course1.ipynb          # Python notebook: data inspection
 │   ├── 📊 2017_Yellow_Taxi_Trip_Data.csv       # Dataset
 │   ├── 📄 PACE_Strategy_Document.pdf           # Project planning document
