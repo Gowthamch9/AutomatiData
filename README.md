@@ -90,9 +90,6 @@ AutomatiData/
 │
 └── 📘 README.md
 
-
-> ✏️ *File and folder names above are a suggested layout; update them to match your actual repository.*
-
 ---
 
 ## 🗺️ Project Roadmap
