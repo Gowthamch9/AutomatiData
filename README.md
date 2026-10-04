@@ -75,21 +75,18 @@ The project uses the **2017 NYC Yellow Taxi Trip Data**, provided by the NYC TLC
 
 ## 📁 Repository Structure
 
-
-
-AutomatiData/
-│
-├── 📂 [Course1_Foundations_of_Data_Science](./Course1_Foundations_of_Data_Science/)
-│   ├── 📓 Automatidata_Course1.ipynb          # Python notebook: data inspection
-│   ├── 📊 2017_Yellow_Taxi_Trip_Data.csv       # Dataset
-│   ├── 📄 PACE_Strategy_Document.pdf           # Project planning document
-│   └── 📄 Executive_Summary.pdf                # Stakeholder-facing summary
-│
-├── 📂 Course2_Get_Started_with_Python/          # 🔜 Coming soon
-├── 📂 Course3_Go_Beyond_the_Numbers/            # 🔜 Coming soon
-├── 📂 Course4_Power_of_Statistics/              # 🔜 Coming soon
-├── 📂 Course5_Regression_Analysis/              # 🔜 Coming soon
-├── 📂 Course6_Nuts_and_Bolts_of_ML/             # 🔜 Coming soon
+AutomatiData/  
+│  
+├── 📂 [Course1_Foundations_of_Data_Science](./Course1_Foundations_of_Data_Science/)  
+│   ├── 📓 [Automatidata_Course1.ipynb]
+│   ├── 📊 2017_Yellow_Taxi_Trip_Data.csv — *Dataset*  
+│   ├── 📄 PACE_Strategy_Document.pdf — *Project planning document*  
+│   └── 📄 Executive_Summary.pdf — *Stakeholder-facing summary*  
+│  
+├── 📂 Course2_Get_Started_with_Python/ — *🔜 Coming soon*  
+├── 📂 Course3_Go_Beyond_the_Numbers/ — *🔜 Coming soon*  
+├── 📂 Course4_Power_of_Statistics/ — *🔜 Coming soon*  
+├── 📂 Course5_Regression_Analysis/ — *🔜 Coming soon*  
 │
 └── 📘 README.md
 
